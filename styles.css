@@ -1,10 +1,10 @@
 :root{
-    --color-text:#404040;
-    --color-surface:#fff;
-    --color-action:#8c1d40;
-    --color-accent:#ffc627;
-    --color-border:#d0d0d0;
-    --color-muted:#5c6670;
+     --color-text:hsl(0, 60%, 10%);
+    --color-surface:#efc6b7;
+    --color-action:#e14d1c;
+    --color-accent:#f8ec06;
+    --color-muted:#472e2e;
+    --color-border:#c04a4a;
     --space-3:1rem;
     --radius:.5rem;
     --measure:68ch;
@@ -23,7 +23,7 @@ body{
     margin:0;
     color:var(--color-text);
     background:var(--color-surface);
-    font-family:Arial,sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height:1.6;
 }
 .feature-header{
